@@ -1,1 +1,412 @@
 /* Paste your css code here */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+    }
+    /*Body*/
+    body{
+    overflow-x: hidden;
+    }
+    
+    /*First Nav*/
+    .nb{
+      display: flex;
+      justify-content: space-between;
+      background-color: #454f6f;
+      padding: 17px 30px;
+      color: #ffffff;
+      font-family: Arial;
+    }
+    
+    /*Responsive Icons*/
+    #check, #btn, #cancel{
+    font-size: 30px;
+    display: none;  
+    }
+    
+    .nb ul{
+      display: flex;
+    }
+    
+    /*Log and Sign*/
+    .nb ul .log{
+      padding: 13px 30px;
+     position: relative;
+     
+    
+    }
+    
+    .nb ul .log a{
+      color: white;
+      text-decoration: none;
+      margin: 10px;
+      padding: 10px;
+      background-color: #253053;
+      border-radius: 20px;
+    }
+    
+    
+    .nb ul li{
+      margin: 10px;
+      list-style: none;
+      }
+    .nb ul li a{
+      position: relative;
+      padding: 5px 0;
+      text-decoration: none;
+      color: #ffffff;
+    }
+    
+    .nb ul li a:before{
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 100%;
+    background: white;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform .4s linear;
+    }
+    
+    .nb ul li a:hover:before{
+      transform: scaleX(1);
+      transform-origin: left;
+    }
+    
+    .nb ul li:hover{
+      background-color: tomato;
+      border-radius: 5px;
+    }
+    
+    .nb .fa-solid{
+      margin: 2.5px;
+    }
+    
+    /*Second Nav*/
+    nav{
+      display: flex;
+      justify-content: space-between;
+      background-color: #454f6f;
+      padding: 17px 30px;
+      color: #ffffff;
+      font-family: Arial;
+    }
+    
+    nav ul{
+      display: flex;
+    }
+    
+    nav ul li{
+      margin: 10px;
+      list-style: none;
+     
+    }
+    nav ul li a{
+      text-decoration: none;
+      color: #ffffff;
+    }
+    
+    nav ul li:hover{
+      background-color: tomato;
+      border-radius: 5px;
+    }
+    
+    nav .fa-solid{
+      margin: 2.5px;
+    }
+    
+    /*Main Title*/
+    h1 a{
+      color: #ffffff;
+      text-decoration: none;
+      font-family: Arial;
+    }
+    
+    /*Hero*/
+    #local{
+      display: flex;
+      justify-content:space-around;
+      background-color: #e6834c;
+      color: #ffffff;
+      align-items: center;
+      text-align: center;
+      padding: 30px;
+      margin-bottom: 25p;
+    }
+    
+    /*Hero parag*/
+    #local p{
+    width: 75%;
+    height: auto;
+    line-height: 50px;
+    }
+    
+    /*Hero Img*/
+    #local img{
+      border-radius: 50%;
+      width: 50%;
+      height:auto;
+      margin-bottom: 100px;
+      align-items: center;
+      padding-top: 50px;
+    }
+    
+    /*Notice*/
+    .notice p{
+    
+    font-family: Arial;
+    font-size: 14px;
+    background-color: #e26b2b;
+    margin-top: -170px;
+    margin-bottom: 125px;
+    list-style: 50%;
+    }
+    
+    span{
+      font-weight: bold;
+      font-size: 20px;
+    }
+    
+    /*Hero text1*/
+    #taste{
+      font-size: 40px;
+      font-weight: bold;
+      font-family: 'Times New Roman', Times, serif;
+    }
+    
+    /*Hero text2*/
+    #lok{
+      font-family: Arial;
+      font-size: 20px;
+    }
+    
+    /*Fatuma Imf*/
+    .ft img{
+      width: 100%;
+      padding-right: 50px;
+      padding-left: 10;
+      margin-top: 25px;
+    }
+    
+    /*About Fatuma*/
+    #lorem{
+      background-color: #F0F4FF;
+      padding: 50px 50px;
+      margin: 20px 30px;
+      margin-top: 15px;
+      font-family: Arial;
+    }
+    
+    /*About Fatuma Title*/
+    h2{
+      text-align: center;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+      color: blue;
+    }
+    
+    /*Main boxes*/
+    .main{
+    display: flex;
+    font-family: Arial;
+    font-size: 15px;
+    }
+    
+    .pasta{
+      align-items: left;
+      margin: -15px 10px;
+      padding: 30px 70px;
+    }
+    
+    .rice{
+      align-items: right;
+      margin: -15px 10px;
+      padding: 30px 70px; 
+    }
+    
+    .main img{
+    margin-top: 20;
+    margin-bottom: 50px;
+    }
+    
+    /*Main boxes2*/
+    .main2{
+      display: flex;
+      font-family: Arial;
+      font-size: 15px;
+    }
+    
+    .main2 img{
+      margin-top: 20px;
+      margin-bottom: 70px;
+    }
+    
+    .catering{
+      align-items: left;
+      margin: -70px 10px;
+      padding: 30px 70px;
+    }
+    
+    .catering2{
+      align-items: right;
+      margin: -70px 10px;
+      padding: 30px 70px;
+    }
+    
+    /*Boxes title*/
+    h3{
+      color: blue;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+    
+    /*Copyright*/
+    .copy{
+      text-align: center;
+      background-color: #e6834c;
+      font-family: Arial;
+      padding: 10px;
+    }
+    
+    /*Boxes Img*/
+    img{
+      margin-bottom: 20px;
+      margin-left: 20px;
+      align-items: left;
+    }
+    
+    /*Form*/
+    .h3{
+    margin-top: 20px;
+    font-size: 30px;
+    }
+    
+    .fo{
+      border-radius: 5px;
+      background-color: #F0F4FF;
+      padding: 20px;
+    }
+    
+    label{
+      margin-left: 27px;
+      margin-left: 52px;
+    }
+    
+    input[type=text], [type=email], [type=message], [type=button], select{
+      width: 92%;
+      padding: 12px 20px;
+      margin: 5px 50px;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      }
+    
+      input[type=text], [type=email], [type=message], [type=button], select:focus{
+        outline: none;
+      }
+    
+      textarea{
+      width: 92%;
+      margin-left: 51px;
+      margin-top: 7px;
+      padding: 18px 20px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      }
+    
+      textarea:focus{
+        outline: none;
+      }
+    
+      input[type=button]{
+      background-color: tomato;
+      margin-bottom: 50px;
+      margin-top: 20px;
+      }
+    
+      input[type=button]:hover{
+        cursor: pointer;
+        background-color: hotpink;
+      }
+    
+    /*Contact*/
+    .contact{
+    display: flex;
+    padding-left: 70px;
+    font-family: Arial;
+    }
+    
+    .contact ul{
+     display: flex;
+    }
+    
+    .contact ul li{
+    margin: 10px;
+    list-style: none;
+    }
+    
+    .contact ul li a{
+      text-decoration: none;
+      color: #000000;
+    }
+    
+    .contact ul li a .fa-envelope{
+      color: green;
+      background-color: white;
+    }
+    
+    .contact ul li a .fa-phone{
+      color: green;
+    }
+    
+    .contact ul li a .fa-location-dot{
+      color: red;
+    }
+    
+    .contact .fa-solid{
+      margin: 2.5px;
+    }
+    
+    /*Social media Icons*/
+    .media{
+      display: flex;
+      justify-content: right;
+      padding-right: 50px;
+      padding-bottom: 50px;
+    }
+    
+    .media ul{
+      display: flex;
+    }
+    
+    .media ul li{
+      margin: 10px;
+      list-style: none;
+    }
+    
+    .media ul li a .fa-facebook{ 
+      color: blue;
+    }
+    
+    .media ul li a .fa-youtube{
+      color: red;
+    
+    }
+    
+    .media ul li a .fa-square-instagram{
+      color: #ff0066;
+    }
+    
+    .media ul li a .fa-square-twitter{
+      color: DodgerBlue;
+    }
+    
+    /*Responsive*/
+    @media (max-width: 1024px){
+    
+    }
